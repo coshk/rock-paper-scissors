@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723375fc-b8f5-4b3f-99e2-7c37700422b1" name="Changes" comment="dependencies installed" />
+    <list default="true" id="723375fc-b8f5-4b3f-99e2-7c37700422b1" name="Changes" comment="dependencies installed">
+      <change afterPath="$PROJECT_DIR$/src/assets/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Choice/Choice.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Choice/Choice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Choice/ChoiceStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Choice/choice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Game/Game.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Game/game.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Play/Play.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Play/PlayStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Play/play.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Restart/Restart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Winner/Winner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Winner/chooseWinner.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Winner/winner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +56,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "/Users/alligator/Documents/education/projects/2022/rock-paper-scissors",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs.jest.jest_package": "/Users/alligator/Documents/education/projects/2022/rock-paper-scissors/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
     "ts.external.directory.path": "/Users/alligator/Documents/education/projects/2022/rock-paper-scissors/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -52,6 +85,8 @@
       <workItem from="1667873925756" duration="364000" />
       <workItem from="1667874413661" duration="937000" />
       <workItem from="1667875411131" duration="332000" />
+      <workItem from="1667950125117" duration="1248000" />
+      <workItem from="1667962045741" duration="25126000" />
     </task>
     <task id="LOCAL-00001" summary="dependencies installed">
       <created>1667874616294</created>
