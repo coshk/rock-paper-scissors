@@ -1,0 +1,31 @@
+.choice {
+    display: flex;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.lbl, .inp {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.arrow {
+    margin-left: 20px;
+    animation: slide1 0.5s linear infinite;
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(10px, 0);
+    }
+}
