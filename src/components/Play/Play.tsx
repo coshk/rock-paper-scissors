@@ -3,8 +3,8 @@ import {observer} from 'mobx-react';
 import cn from 'classnames';
 
 import PlayStore from './PlayStore';
-import './play.css';
 import ChoiceStore from '../Choice/ChoiceStore';
+import './play.css';
 
 interface Props {
   accord: boolean;
@@ -31,18 +31,18 @@ const Play: FC<Props> = observer(({accord, setAccord}) => {
       <button
         type="button"
         onClick={() => {
-          setCounter(5);
+          setCounter(3);
           setPlay(true);
         }}
-        // className={play ? 'btn disabled': 'btn'}
         className={cn({
           'btn': !play && accord,
           'btn disabled': play,
           'btn gameover': accord,
         }, 'btn')}
-        disabled={(counter < 5 && counter > 0) || accord}
+        disabled={(counter < 3 && counter > 0) || accord}
       >{accord ? 'game over' : title}</button>
-      {(!play && accord) &&  <button
+      {(!play && accord) &&
+        <button
           className="btn2 restart"
           onClick={() => {
             setTool('');

@@ -1,7 +1,7 @@
 import {makeAutoObservable} from 'mobx';
 
 class PlayStore {
-  counter = 5;
+  counter = 3;
 
   play = false;
 
