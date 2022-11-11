@@ -1,0 +1,11 @@
+.winner {
+    background-color: rgb(64, 209, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
