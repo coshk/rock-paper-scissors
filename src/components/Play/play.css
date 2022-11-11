@@ -1,0 +1,56 @@
+.playButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    background-color: deeppink;
+    background: oklch(83% 2.12 225);
+    color: #f3e8ac;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    background-color: deeppink;
+    background: oklch(83% 2.12 225);
+    color: #f3e8ac;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #bf2075;
+    background: oklch(50% 0.12 215);
+    /*padding: 5px 30px;*/
+    border-radius: 13px 0;
+    letter-spacing: 5px;
+    transition: 0.5ms ease-in-out;
+}
+
+.disabled {
+    background-color: #bf2075;
+    background: oklch(50% 0.12 215);
+    /*padding: 5px 30px;*/
+    border-radius: 13px 0;
+    letter-spacing: 1.2px;
+    transition: 0.2ms ease-in-out;
+    cursor: not-allowed;
+}
+
+.gameover {
+    cursor: not-allowed;
+}
+
+.restart {
+    cursor: pointer;
+}
